@@ -1,3 +1,11 @@
 #red{
     color: red;
 }
+
+#construction{
+    padding: auto !important;
+    color: red !important;
+    background: red !important;
+    margin: auto !important;
+    float: none;
+}
