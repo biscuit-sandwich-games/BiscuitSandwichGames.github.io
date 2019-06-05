@@ -3,9 +3,12 @@
 }
 
 #construction{
-    padding: auto !important;
-    color: red !important;
-    background: red !important;
-    margin: auto !important;
-    float: none;
+    text-align: center;
+}
+
+#animalimages
+{
+    max-width: 1000px !important;
+    height: auto;
+    margin: auto;
 }
