@@ -8,14 +8,14 @@
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
+  <link href="https://fonts.googleapis.com/css?family=Lalezar&display=swap" rel="stylesheet">
   <link rel="shortcut icon" href="Images/favicon.ico" type="image/favicon">
 
   <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-RSSRed">
+<nav class="navbar navbar-expand-lg navbar-dark bg-DarkRed">
   <div class="container">
     <a class="navbar-brand" style="margin-left: 5%;" href="#">Biscuit Sandwich Games</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,6 +43,7 @@
   </ol>
   <div class="carousel-inner" >
     <div class="carousel-item active">
+      <a href="contact.html">
       <img class="first-slide" src="Images/TeamBanner.png" alt="First slide">
       <div class="container">
         <div class="carousel-caption text-left custom-carousel-text">
@@ -50,8 +51,10 @@
           <p>We are Biscuit Sandwich Games, We're excited to be contestents in Tranzfuser 2019 with our game Ready Set Sumo!</p>
         </div>
       </div>
+    </a>
     </div>
     <div class="carousel-item">
+      <a href="#ReadySetSumo">
       <img class="second-slide" src="Images/Banner.png" alt="Second slide">
       <div class="container">
         <div class="carousel-caption text-left custom-carousel-text">
@@ -59,6 +62,7 @@
           <p>Ready Set Sumo! is a local party game where 2-4 players fight to be the last animal standing. With fast paced rounds and a variety of unique characters, gameplay will always be exciting.</p>
         </div>
       </div>
+    </a>
     </div>
   </div>
   <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
@@ -71,16 +75,42 @@
   </a>
 </div>
   
-<div id="construction">
-  <h1>Site Currently Under Contruction</h1>
-  <h2>Come Back Soon </h2>
-</div>
+<div id="ReadySetSumo">
+  <img src="Images/Game Logo.png" alt="Ready Set Sumo!" id="GameLogo" />
 
-<div id="animalimages">
-  <img src="Images/Bear.png" width="24%"  />
-  <img src="Images/CatStand.png" width="24%"/>
-  <img src="Images/Hamster.png" width="24%"/>
-  <img src="Images/Snail.png" width="24%"/>
+  <p>Ready Set Sumo pits players and their crazy, unique characters against 
+    each other to triumph in the ring. Battle to be the last one standing as 
+    you fight your way to victory through chaotic locations, whacking and 
+    thwacking each other with out of this world weapons.</p>
+
+    <table class="OneByTwoAnimalTable">
+      <tr>
+        <td><img src="Images/Bear.png" class="AnimalImage"  /></td>
+      </tr>
+
+      <tr>
+        <td><img src="Images/CatStand.png" class="AnimalImage"/></td>
+      </tr>
+    </table>
+
+  <div id="TwitterFeed">
+      <a class="twitter-timeline" data-theme="dark" data-link-color="#fff" href="https://twitter.com/BiscuitBap?ref_src=twsrc%5Etfw">
+      </a> 
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </div>
+
+  <table class="OneByTwoAnimalTable">
+      <tr>
+        <td><img src="Images/Hamster.png" class="AnimalImage"/></td>
+      </tr>
+
+      <tr>
+        <td><img src="Images/Snail.png" class="AnimalImage"/></td>
+      </tr>
+    </table>
+
+  
+  
 </div>
 
 <div class="Footer">

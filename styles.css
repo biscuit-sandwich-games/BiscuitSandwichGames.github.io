@@ -1,5 +1,7 @@
-#construction{
-    text-align: center;
+body{
+    font-family: 'Lalezar', cursive;
+    font-size: 1.3rem;
+    background-color: #942b39;
 }
 
 #animalimages
@@ -8,6 +10,7 @@
     height: auto;
     margin: auto;
 }
+
 
 .carouselImage{
     margin:auto;
@@ -57,6 +60,10 @@
     background-color: #ff556c !important;
 }
 
+.bg-DarkRed{
+    background-color: #942b39 !important;
+}
+
 .text-RSSRed{
     color: #ff556c !important;
 }
@@ -66,11 +73,19 @@
 }
 
 .text-Black{
-    color: #ff556c !important;
+    color: #000 !important;
 }
 
 .text-Black a{
-    color: #ff556c !important;
+    color: #000 !important;
+}
+
+.text-White{
+    color: #fff !important;
+}
+
+.text-Black a{
+    color: #fff !important;
 }
 
 .bg-white{
@@ -86,10 +101,11 @@
     padding-left: 20px;
     padding-right: 20px;
     margin-bottom: 80px;
+    color: #fff;
 }
 
 #SocialMediaArea a{
-    color: #000;
+    color: #fff;
 }
 
 .SocialMediaBox{
@@ -100,10 +116,14 @@
     margin-bottom: 40px;
     margin-top: 20px;
     text-align: center;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    color: #000;
 }
 
 .SocialMediaBox p{
-    height:50px;
+    height:27px;
     text-align: center;
     font-size: 100%;
     line-height: 50px;
@@ -116,6 +136,7 @@
 .SocialMediaImage{
     width: 100%;
     height: auto;
+    border-radius: 5PX;
 }
 
 .navbar-dark .navbar-toggler{
@@ -138,14 +159,60 @@
 
 .Footer{
     width: 100%;
-    background-color: #ddd;
+    background-color:rgba(0, 0, 0, 0.1);
     bottom: 0px;
     height: 100px;
     margin-top: 30px;
     text-align: center;
     padding-top: 39px;
+    color: #fff;
+    font-size: 20px;
 }
 
 .navbarShadow{
     box-shadow: 0px 0px 5px 0px black;
+}
+
+#ReadySetSumo
+{
+    width: 100%;
+    height: 1250px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto; 
+    color: white;
+    font-size: 20px;
+}
+
+#TwitterFeed{
+    float: left;
+    width: 50%;
+    height: auto;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding-bottom: -0px;
+    box-shadow: 0px 0px 5px 0px #000;
+}
+
+#GameLogo {
+    float: center;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: auto;
+}
+
+.AnimalImage{
+    width: 100%;
+    float: left;
+}
+
+.OneByTwoAnimalTable{
+    margin-top:50px; 
+    width: 24%; 
+    float: left; 
+    padding-top: 20px;
+    border-spacing: 0px;
+    border-collapse: separate;
 }
