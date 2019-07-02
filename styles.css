@@ -186,8 +186,8 @@ body{
 
 #TwitterFeed{
     float: left;
-    width: 50%;
-    height: auto;
+    width: 60%;
+    height: 600px;
     padding: 10px;
     background-color: #fff;
     border-radius: 5px;
@@ -210,7 +210,7 @@ body{
 
 .OneByTwoAnimalTable{
     margin-top:50px; 
-    width: 24%; 
+    width: 20%; 
     float: left; 
     padding-top: 20px;
     border-spacing: 0px;
