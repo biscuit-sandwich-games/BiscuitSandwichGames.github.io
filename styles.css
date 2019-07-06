@@ -1,5 +1,5 @@
 body{
-    font-family: 'Lalezar', cursive;
+    
     font-size: 1.3rem;
     background-color: #942b39;
 }
@@ -144,13 +144,13 @@ body{
     color: white;
 }
 
-#ContactBanner
+.Banner
 {
     width: 100%;
     height: 250px;
 }
 
-#ContactBanner img
+.Banner img
 {
     width: 100%;
     height: 250px;
@@ -215,4 +215,26 @@ body{
     padding-top: 20px;
     border-spacing: 0px;
     border-collapse: separate;
+}
+
+.Blog{
+    max-width: 1000px;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px; 
+}
+
+.blog-post{
+    font-size: 16px;
+}
+
+.BlogPostPreview{
+    width: 100%;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.5)
 }
