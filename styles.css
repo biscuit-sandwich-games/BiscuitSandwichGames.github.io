@@ -1,7 +1,10 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body{
-    
     font-size: 1.3rem;
-    background-color: #942b39;
+    background-color: #8d1d1d;
 }
 
 #animalimages
@@ -57,19 +60,19 @@ body{
 }
 
 .bg-RSSRed{
-    background-color: #ff556c !important;
+    background-color: #ff6161 !important;
 }
 
 .bg-DarkRed{
-    background-color: #942b39 !important;
+    background-color: #d65151 !important;
 }
 
 .text-RSSRed{
-    color: #ff556c !important;
+    color: #ff6161 !important;
 }
 
 .text-RSSRed a{
-    color: #ff556c !important;
+    color: #ff6161 !important;
 }
 
 .text-Black{
@@ -92,18 +95,15 @@ body{
     background-color: white !important;
 }
 
-
 #SocialMediaArea{
-    max-width: 45em;
-    width: auto;
+    width: 100%;
+    max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-bottom: 80px;
     color: #fff;
     overflow: hidden;
+    align-content: center;
+    padding: 1em;
 }
 
 #SocialMediaArea a{
@@ -114,9 +114,7 @@ body{
     width: 10em;
     height: auto;
     float: left;
-    margin-right: 1em;
     margin-bottom: 1em;
-    margin-top: 1em;
     text-align: center;
     background-color: #fff;
     padding: 0.2em;
@@ -173,13 +171,14 @@ body{
 #ReadySetSumo
 {
     width: 100%;
-    height: 1250px;
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto; 
     color: white;
     font-size: 20px;
-    padding: 0.5em;
+    padding: 1em;
+    padding-bottom: 0px;
+    overflow: auto;
 }
 
 #TwitterFeed{
@@ -293,3 +292,76 @@ body{
     border-style: solid;
     border-width: 2px;
 }
+  
+  
+  @media (pointer: coarse) and (hover: none) {
+    header {
+      background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+    }
+    header video {
+      display: none;
+    }
+  }
+
+  .navbar{
+      padding: 0px 1rem;
+      box-shadow: 0 0 5px #100;
+      z-index: 1;
+  }
+
+  .BackgroundVideo{
+    position: fixed; 
+    z-index: -1; 
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    height: 100%;
+    min-height: 100px;
+    width: auto;
+    height: auto;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+
+  .VideoContainer{
+      height: 90vh;
+      min-height: 450px;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.3);
+      text-align: center;
+      display: block;
+      color: white;
+  }
+  .VideoContainerInner{
+    width: 90vw;
+    max-width: 600px;
+    margin: auto;
+    height: 100%;
+    margin-top: 10vh;
+  }
+
+  #VideoGameLogo {
+    margin: auto;
+    width: 70%;
+    height: auto;
+  }
+
+  .contentBackground{
+      background-color: #ff6161;
+      width: 100%;
+  }
+
+  #DownGraphic{
+    width: 50px;
+    height: 50px;
+    margin-top: -2.5em;
+  }
+  
+  .UpMarker{
+      margin-top: -9.8vh;
+      height: 9.8vh;
+      position: absolute;
+  }
