@@ -341,7 +341,7 @@ body{
 
   .VideoContainer{
       height: 90vh;
-      min-height: 450px;
+      min-height: 800px;
       width: 100%;
       background-color: rgba(0, 0, 0, 0.3);
       text-align: center;
