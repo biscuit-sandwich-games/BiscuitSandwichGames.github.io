@@ -24,7 +24,7 @@
     <source src="Videos/EGXGameplayVideoSmaller.mp4" type="video/mp4">
   </video>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-DarkRed " style="position: fixed; width: 100%; top: 0px;">
+<nav class="navbar navbar-expand-lg navbar-dark bg-RSSBlue" style="position: fixed; width: 100%; top: 0px;">
   <div class="container">
     <a class="navbar-brand" style="margin-left: 5%; height: 10vh; min-height: 45px; line-height: 9vh;" href="#">Biscuit Sandwich Games</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
@@ -72,20 +72,23 @@
     </a>
   </div>
 
-<div class="contentBackground">
+<div class="contentBackground bg-RSSBlue">
   <div class="UpMarker"id="Games"></div>
 <div id="ReadySetSumo">
-  <br>
-  <img src="Images/Game Logo.png" alt="Ready Set Sumo!" id="GameLogo" />
-
-  <p>Ready Set Sumo pits players and their crazy, unique characters against 
-    each other to triumph in the ring. Battle to be the last one standing as 
-    you fight your way to victory through chaotic locations, whacking and 
-    thwacking each other with out of this world weapons.</p>
-
-  <div style=" width: 100%; margin-left: auto; margin-right: auto;">
+   <div style="float:left; width: 100%; margin:auto; border-radius: 5px; margin-bottom: 10px;" class="bg-FiftyBlack">
+    <div style="position: relative; padding-top: 50%">
+      <img src="Images/Game Logo.png" alt="Ready Set Sumo!" style="position:absolute; top:0; left:17%; width:auto; height:100%;"/>
+    </div>
+  </div>
+  <div style="float:left; width: 100%; margin:auto; border-radius: 5px; margin-bottom: 10px; overflow: auto; padding: 10px;" class="bg-FiftyBlack">
+        <p style="font-size: 100%; margin-bottom: 0px;">Ready Set Sumo pits players and their crazy, unique characters against 
+        each other to triumph in the ring. Battle to be the last one standing as 
+        you fight your way to victory through chaotic locations, whacking and 
+        thwacking each other with out of this world weapons.</p>
+  </div>
+  <div style="width: 100%; margin-left: auto; margin-right: auto; float:left;">
     <div style="position: relative; padding-bottom: 56.25%;">
-      <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://www.youtube.com/embed/TqDqJ8oXCuw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe style="border-radius: 5px;" class="lockedRatioContent" src="https://www.youtube.com/embed/TqDqJ8oXCuw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
   </div>
     <br>
@@ -105,43 +108,45 @@
 <br>
 <div class="UpMarker" id="Contact"></div>
   <div id="SocialMediaArea">
-    <h2>Contact</h2>
-    <h4>You can find us on social media here</h4>
-    <div style="display:flex; flex-wrap: wrap; justify-content: center; max-width: 100%; margin: auto">
-      <a href="https://twitter.com/BiscuitBap">
-        <div class="SocialMediaBox">
-          <img src="Images/SocialMedia/twitter.png" class="SocialMediaImage"/>
-          <p>@BiscuitBap</p>
-        </div>
-      </a>
+    <div style="float:left; width: 100%; margin:auto; border-radius: 5px; margin-bottom: 10px; overflow: auto; padding: 10px;" class="bg-FiftyBlack">
+      <h2 style="float:none">Contact</h2>
+      <h4>You can find us on social media here</h4>
+      <div style="display:flex; flex-wrap: wrap; justify-content: center; max-width: 100%; margin: auto">
+        <a href="https://twitter.com/BiscuitBap">
+          <div class="SocialMediaBox">
+            <img src="Images/SocialMedia/twitter.png" class="SocialMediaImage"/>
+            <p>@BiscuitBap</p>
+          </div>
+        </a>
 
-      <a href="https://www.instagram.com/biscuitbap/">
-        <div class="SocialMediaBox">
-          <img src="Images/SocialMedia/instagram.png" class="SocialMediaImage"/>
-          <p>BiscuitBap</p>
-        </div>
-      </a>
+        <a href="https://www.instagram.com/biscuitbap/">
+          <div class="SocialMediaBox">
+            <img src="Images/SocialMedia/instagram.png" class="SocialMediaImage"/>
+            <p>BiscuitBap</p>
+          </div>
+        </a>
 
-      <a href="https://www.facebook.com/BiscuitBap">
-        <div class="SocialMediaBox">
-          <img src="Images/SocialMedia/facebook.png" class="SocialMediaImage"/>
-          <p>@BiscuitBap</p>
-        </div>
-      </a>
+        <a href="https://www.facebook.com/BiscuitBap">
+          <div class="SocialMediaBox">
+            <img src="Images/SocialMedia/facebook.png" class="SocialMediaImage"/>
+            <p>@BiscuitBap</p>
+          </div>
+        </a>
 
-      <a href="https://biscuitbap.tumblr.com/">
-        <div class="SocialMediaBox">
-          <img src="Images/SocialMedia/tumblr.png" class="SocialMediaImage"/>
-          <p>BiscuitBap</p>
-        </div>
-      </a>
-    </div>
-    <div id="SocialMediaArea" style="overflow: auto;">
+        <a href="https://biscuitbap.tumblr.com/">
+          <div class="SocialMediaBox">
+            <img src="Images/SocialMedia/tumblr.png" class="SocialMediaImage"/>
+            <p>BiscuitBap</p>
+          </div>
+        </a>
+      </div>
+      
       <h4>Or you can email us at <a href="mailto:info@biscuitSandwich.games">info@biscuitsandwich.games</a></h4>
     </div>
+  </div>
 </div>
 
-<div class="Footer">
+<div class="Footer bg-FiftyBlack">
     <p><a href="index.html">Home</a> | <a href="#Contact">Contact</a> | <a href="press.html">Press</a></p>
     <p style="margin: auto">Copyright © Biscuit Sandwich Games 2019</p>
 </div>
