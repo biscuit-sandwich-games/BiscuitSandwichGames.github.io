@@ -123,7 +123,6 @@ body{
     color: #fff;
     overflow: hidden;
     align-content: center;
-    padding: 1%;
 }
 
 #SocialMediaArea a{
@@ -434,6 +433,10 @@ body{
     display: block;
   }
   
+  .socialMediaBackground{
+      border-radius: 5px;
+  }
+
   @media (max-width: 1000px) {
     .wrap {
       flex-direction: column;
@@ -445,7 +448,15 @@ body{
       border-radius: 0px;
     }
 
-    .fullcolumn{
+    .halfcolumn{
+        min-height: 50%;
+    }
+
+    .thirdcolumn{
+        min-height: 33.3%;
+    }
+
+    .fullcolumn, .socialMediaBackground{
         border-radius: 0px;
     }
 
