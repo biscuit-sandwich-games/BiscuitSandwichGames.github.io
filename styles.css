@@ -123,6 +123,8 @@ body{
     color: #fff;
     overflow: hidden;
     align-content: center;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 #SocialMediaArea a{
@@ -196,7 +198,8 @@ body{
     margin-right: auto; 
     color: white;
     font-size: 20px;
-    
+    padding-left: 5px;
+    padding-right: 5px;
     padding-bottom: 0px;
     overflow: auto;
 }
@@ -466,5 +469,10 @@ body{
 
     .wideGameBanner{
         display: none;
+    }
+
+    #ReadySetSumo, #SocialMediaArea{
+        padding-left: 0px;
+        padding-right: 0px;
     }
   }
