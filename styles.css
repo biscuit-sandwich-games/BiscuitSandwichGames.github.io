@@ -71,6 +71,10 @@ body{
     background-color: rgba(0,0,0,0.5) !important;
 }
 
+.bg-thirtyLightBlue{
+    background-color: rgba(200,200,255,0.3) !important;
+}
+
 .bg-RSSBlue{
     background-color: #347ee0 !important;
 }
