@@ -424,8 +424,15 @@ body{
     padding: 10px;
   }
 
-  .text-column{
-      padding: 10px;
+  .columnText{
+    padding: 10px;
+  }
+
+  .columnImage{
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
   }
 
   .mobileGameBanner{
