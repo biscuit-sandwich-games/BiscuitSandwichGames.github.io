@@ -14,6 +14,16 @@ body{
     margin: auto;
 }
 
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a :hover{
+    color: #eee;
+    text-decoration: underline;
+}
+
 
 .carouselImage{
     margin:auto;
@@ -283,9 +293,12 @@ body{
     max-width:1200px;
     margin:auto;
     padding:5px;
-    padding-top: 50px;
+    padding-top: 20px;
     color: white;
-    overflow:auto;
+    overflow: inherit;
+    height: fit-content;
+    display: flow-root;
+    font-size: 0.9rem;
 }
 
 .PressKitBody table{
@@ -408,6 +421,7 @@ body{
     margin-right: 1%;
     margin-bottom: 10px;
     border-radius: 5px;
+    padding-bottom: 10px !important;
   }
 
   .thirdcolumn {
@@ -417,6 +431,7 @@ body{
     margin-right: 1%;
     margin-bottom: 10px;
     border-radius: 5px;
+    padding-bottom: 10px !important;
   }
 
   .halfcolumn {
@@ -426,6 +441,7 @@ body{
     margin-right: 1%;
     margin-bottom: 10px;
     border-radius: 5px;
+    padding-bottom: 10px !important;
   }
 
   .fullcolumn {
@@ -461,13 +477,31 @@ body{
       border-radius: 5px;
   }
 
+  .presskitSidebar {
+    position: sticky;
+    top: 110px;
+    height: fit-content;
+    overflow: visible;
+  }
+
+  .listContent p{
+      margin-top:0;
+      margin-bottom:0;
+  }
+
+  .listContent h5{
+    margin-top:10px;
+    margin-bottom: 0px;
+    font-size: 1rem;
+  }
+
   @media (max-width: 700px) {
     .wrap {
       flex-direction: column;
     }
 
     .halfcolumn, .thirdcolumn, .customcolumn {
-      width: auto;
+      width: 100% !important;
       margin-right: 0px;
       border-radius: 0px;
     }
@@ -492,8 +526,13 @@ body{
         display: none;
     }
 
-    #ReadySetSumo, #SocialMediaArea{
+    #ReadySetSumo, #SocialMediaArea, .PressKitBody{
         padding-left: 0px;
         padding-right: 0px;
+    }
+
+    .presskitSidebar {
+        position: relative;
+        top: 0;
     }
   }
