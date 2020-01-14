@@ -395,9 +395,10 @@ a :hover{
   }
   
   .UpMarker{
-      margin-top: -9.8vh;
-      height: 9.8vh;
-      position: absolute;
+      margin-top: -11vh;
+      height: 11vh;
+      float: left;
+      width: 10px;
   }
 
   .lockedRatioContent{
@@ -482,6 +483,7 @@ a :hover{
     top: 110px;
     height: fit-content;
     overflow: visible;
+    font-size: 1rem;
   }
 
   .listContent p{
@@ -493,6 +495,11 @@ a :hover{
     margin-top:10px;
     margin-bottom: 0px;
     font-size: 1rem;
+  }
+
+  #factsheetColumn{
+    margin-left: 10px;
+    border-right: 1px solid white;
   }
 
   @media (max-width: 700px) {
@@ -534,5 +541,9 @@ a :hover{
     .presskitSidebar {
         position: relative;
         top: 0;
+    }
+
+    #factsheetColumn{
+        border-right: 0px solid white;
     }
   }
