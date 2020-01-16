@@ -425,24 +425,37 @@ a :hover{
     padding-bottom: 10px !important;
   }
 
-  .thirdcolumn {
-    width: 34%;
+  .quartercolumn {
+    width: 24.25%;
     height: auto;
     min-height: 100%;
     margin-right: 1%;
     margin-bottom: 10px;
     border-radius: 5px;
     padding-bottom: 10px !important;
+    float:left;
+  }
+
+  .thirdcolumn {
+    width: 32.66%;
+    height: auto;
+    min-height: 100%;
+    margin-right: 1%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding-bottom: 10px !important;
+    float:left;
   }
 
   .halfcolumn {
-    width: 50%;
+    width: 49.5%;
     height: auto;
     min-height: 100%;
     margin-right: 1%;
     margin-bottom: 10px;
     border-radius: 5px;
     padding-bottom: 10px !important;
+    float: left;
   }
 
   .fullcolumn {
@@ -456,7 +469,7 @@ a :hover{
   }
 
   .columnText{
-    padding: 10px;
+    padding: 15px;
   }
 
   .columnImage{
@@ -507,7 +520,7 @@ a :hover{
       flex-direction: column;
     }
 
-    .halfcolumn, .thirdcolumn, .customcolumn {
+    .halfcolumn, .thirdcolumn, .customcolumn, .quartercolumn {
       width: 100% !important;
       margin-right: 0px;
       border-radius: 0px;
