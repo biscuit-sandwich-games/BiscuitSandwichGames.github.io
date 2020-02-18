@@ -423,10 +423,11 @@ a :hover{
     margin-bottom: 10px;
     border-radius: 5px;
     padding-bottom: 10px !important;
+    float:left;
   }
 
   .quartercolumn {
-    width: 24.25%;
+    width: 24%;
     height: auto;
     min-height: 100%;
     margin-right: 1%;
