@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'anja_eliane';
+    src: url('Fonts/anja_eliane_accent002.woff2') format('woff2'),
+         url('Fonts/anja_eliane_accent002.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 html {
     scroll-behavior: smooth;
 }
