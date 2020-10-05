@@ -525,6 +525,14 @@ a :hover{
     border-right: 1px solid white;
   }
 
+  .youtubeVideo{
+    border-radius: 5px;
+  }
+
+  #leftAwardColumn{
+    margin-left:15%;
+  }
+
   @media (max-width: 700px) {
     .wrap {
       flex-direction: column;
@@ -536,12 +544,20 @@ a :hover{
       border-radius: 0px;
     }
 
+    .columnImage{
+        border-radius: 0px;
+    }
+
     .halfcolumn{
         min-height: 50%;
     }
 
     .thirdcolumn{
         min-height: 33.3%;
+    }
+
+    #leftAwardColumn{
+        margin-left:0%;
     }
 
     .fullcolumn, .socialMediaBackground{
@@ -554,6 +570,10 @@ a :hover{
 
     .wideGameBanner{
         display: none;
+    }
+
+    .youtubeVideo{
+        border-radius: 0px;
     }
 
     #ReadySetSumo, #SocialMediaArea, .PressKitBody{
